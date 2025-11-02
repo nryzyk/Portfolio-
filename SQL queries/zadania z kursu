@@ -1,0 +1,88 @@
+1. Wyświetl wszystkie dane klientów z tabeli customers.
+
+SELECT * FROM customers;
+
+
+2. Wyświetl wszystkie dane klientów z Niemiec.
+
+SELECT * FROM customers WHERE Country="Germany"; 
+
+
+3. Wyświetl wszystkie dane klientów, którzy NIE pochodzą z Niemiec.
+
+SELECT * FROM `customers` WHERE NOT Country="Germany"; 
+
+
+4. Wyświetl wszystkich klientów, których kraj to USA albo miasto to London.
+
+SELECT CustomerName, Country, City FROM `customers` WHERE Country="USA" OR City="London"; 
+
+
+5. Wyświetl klientów, których Imię zaczyna się od litery „A”.
+
+SELECT CustomerName FROM `customers` WHERE CustomerName LIKE 'a%'; 
+
+
+6. Wyświetl najniższą cenę produktu.
+
+SELECT MIN(Price), ProductName FROM `products`; 
+
+
+7. Wyświetl wszystkich klientów posortowanych malejąco według miast.
+
+SELECT CustomerName, City FROM customers ORDER BY City DESC; 
+
+
+8. Wyświetl tylko pierwszych 5 klientów z tabeli customers.
+
+SELECT CustomerName FROM customers LIMIT 5; 
+
+
+9. Wyświetl wszystkie produkty, których cena jest mniejsza niż 10.
+
+SELECT ProductName, Price FROM `products` WHERE Price<10; 
+
+
+10. Wyświetl produkty, które nie należą do żadnej kategorii (CategoryID ma wartość NULL).
+
+SELECT ProductName FROM `products` WHERE CategoryID IS NULL;
+
+
+11. Wyświetl łączną wartość cen wszystkich produktów.
+
+SELECT SUM(Price) FROM `products`; 
+
+
+12. Wyświetl średnią cenę wszystkich produktów.
+
+SELECT AVG(Price) FROM `products
+
+
+13. Wyświetl zamówienia, które zostały złożone w roku 2021.
+
+SELECT * FROM `orders` WHERE OrderDate = 2021; 
+
+
+14. Dla tabeli suppliers wyświetl zestawienie, które pogrupuje łączną ilość osób należących dla konkretnego Country. 
+
+SELECT COUNT(SupplierID) AS IloscOsob, Country FROM `suppliers` GROUP BY Country; 
+
+
+15. Wyświetl kolumny FirstName i LastName jako jedna kolumna o nazwie Person.
+
+SELECT CONCAT(FirstName, LastName) AS Person FROM `employees`; 
+
+
+16. Wyświetl daty zamówień jako 'nowe' - gdy data zamówień jest po 01.01.2010 i 'stare' gdy zamówienia dokonano do dnia 01.01.2010.
+
+SELECT OrderDate FROM orders,
+CASE
+WHEN OrderDate > '01.01.2010' THEN 'nowe'
+ELSE 'stare'
+END AS 'Info'
+
+
+
+
+
+
