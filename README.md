@@ -7,7 +7,6 @@ W tym dokumencie przedstawiam swoje portfolio z przykładami mojej pracy:
 - przypadki testowe
 - zgłoszone błędy
 - zapytania SQL - zadania w kursie
-- testowanie API w postman - zadania w kursie
 
 ---
 
