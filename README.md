@@ -61,7 +61,8 @@ In this document, I present you my portfolio with examples of my work:
 ---
 
 ## Materiały / Materials
-- WIP
+- SQL queries/course assigments
+- 
 
 
 
