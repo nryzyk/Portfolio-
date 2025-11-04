@@ -62,7 +62,7 @@ In this document, I present you my portfolio with examples of my work:
 
 ## Materiały / Materials
 - [SQL queries](https://github.com/nryzyk/Portfolio-/tree/main/SQL%20queries)
-- 
+- https://github.com/nryzyk/Portfolio-/blob/main/Test%20Cases.pdf
 
 
 
