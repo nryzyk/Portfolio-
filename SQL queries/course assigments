@@ -5,7 +5,7 @@ SELECT * FROM customers;
 
 2. Wyświetl wszystkie dane klientów z Niemiec. / Display all customers data from Germany.
 
-SELECT * FROM customers WHERE Country="Germany"; 
+SELECT * FROM `customers` WHERE Country="Germany"; 
 
 
 3. Wyświetl wszystkie dane klientów, którzy NIE pochodzą z Niemiec. / Display all customers data that does NOT originate from Germany. 
@@ -30,12 +30,12 @@ SELECT MIN(Price), ProductName FROM `products`;
 
 7. Wyświetl wszystkich klientów posortowanych malejąco według miast. / Display all customers sorted in descending order by city.
 
-SELECT CustomerName, City FROM customers ORDER BY City DESC; 
+SELECT CustomerName, City FROM `customers` ORDER BY City DESC; 
 
 
 8. Wyświetl tylko pierwszych 5 klientów z tabeli 'customers'. / Display only the first 5 customers from the table 'customers'.
 
-SELECT CustomerName FROM customers LIMIT 5; 
+SELECT CustomerName FROM `customers` LIMIT 5; 
 
 
 9. Wyświetl wszystkie produkty, których cena jest mniejsza niż 10. / Display all products whose price is less than 10.
@@ -55,7 +55,7 @@ SELECT SUM(Price) FROM `products`;
 
 12. Wyświetl średnią cenę wszystkich produktów. / Display the average price of all products.
 
-SELECT AVG(Price) FROM `products
+SELECT AVG(Price) FROM products;
 
 
 13. Wyświetl zamówienia, które zostały złożone w roku 2021. / Display orders that were placed in 2021.
@@ -70,7 +70,7 @@ SELECT COUNT(SupplierID) AS IloscOsob, Country FROM `suppliers` GROUP BY Country
 
 15. Wyświetl kolumny 'FirstName' i 'LastName' jako jedna kolumna o nazwie 'Person'. / Display the ‘FirstName’ and ‘LastName’ columns as a single column named ‘Person’.
 
-SELECT CONCAT(FirstName, LastName) AS Person FROM `employees`; 
+SELECT CONCAT(FirstName, LastName) AS Person FROM employees; 
 
 
 16. Wyświetl daty zamówień jako 'nowe' - gdy data zamówień jest po 01.01.2010 i 'stare' gdy zamówienia dokonano do dnia 01.01.2010. / Display order dates as ‘new’ when the order date is after January 1, 2010, and ‘old’ when the order was placed before January 1, 2010.
