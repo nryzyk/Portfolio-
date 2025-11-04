@@ -62,8 +62,8 @@ In this document, I present you my portfolio with examples of my work:
 
 ## Materiały / Materials
 - [SQL queries](https://github.com/nryzyk/Portfolio-/tree/main/SQL%20queries)
-- https://github.com/nryzyk/Portfolio-/blob/main/Test%20Cases.pdf - przypadki testowe / test cases
-- https://www.saucedemo.com/ - strona przeznaczona do testów / website for tests
+- https://github.com/nryzyk/Portfolio-/blob/main/Test%20Cases.pdf - przypadki testowe / test cases in polish version
+- https://www.saucedemo.com/ - strona przeznaczona do testów / website for tests in polish version
 
 
 
