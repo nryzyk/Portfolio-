@@ -1,79 +1,79 @@
-1. Wyświetl wszystkie dane klientów z tabeli customers.
+1. Wyświetl wszystkie dane klientów z tabeli 'customers'. / Display all customer data from the table 'customers'.
 
 SELECT * FROM customers;
 
 
-2. Wyświetl wszystkie dane klientów z Niemiec.
+2. Wyświetl wszystkie dane klientów z Niemiec. / Display all customer data from Germany.
 
 SELECT * FROM customers WHERE Country="Germany"; 
 
 
-3. Wyświetl wszystkie dane klientów, którzy NIE pochodzą z Niemiec.
+3. Wyświetl wszystkie dane klientów, którzy NIE pochodzą z Niemiec. / Display all customer data that does NOT originate from Germany. 
 
 SELECT * FROM `customers` WHERE NOT Country="Germany"; 
 
 
-4. Wyświetl wszystkich klientów, których kraj to USA albo miasto to London.
+4. Wyświetl wszystkich klientów, których kraj to USA albo miasto to London. / Display all customers whose country is the US or city is London.
 
 SELECT CustomerName, Country, City FROM `customers` WHERE Country="USA" OR City="London"; 
 
 
-5. Wyświetl klientów, których Imię zaczyna się od litery „A”.
+5. Wyświetl klientów, których Imię zaczyna się od litery „A”. / Display customers whose first name begins with the letter “A.”
 
 SELECT CustomerName FROM `customers` WHERE CustomerName LIKE 'a%'; 
 
 
-6. Wyświetl najniższą cenę produktu.
+6. Wyświetl najniższą cenę produktu. / Display the lowest price for the product.
 
 SELECT MIN(Price), ProductName FROM `products`; 
 
 
-7. Wyświetl wszystkich klientów posortowanych malejąco według miast.
+7. Wyświetl wszystkich klientów posortowanych malejąco według miast. / Display all customers sorted in descending order by city.
 
 SELECT CustomerName, City FROM customers ORDER BY City DESC; 
 
 
-8. Wyświetl tylko pierwszych 5 klientów z tabeli customers.
+8. Wyświetl tylko pierwszych 5 klientów z tabeli 'customers'. / Display only the first 5 customers from the table 'customers'.
 
 SELECT CustomerName FROM customers LIMIT 5; 
 
 
-9. Wyświetl wszystkie produkty, których cena jest mniejsza niż 10.
+9. Wyświetl wszystkie produkty, których cena jest mniejsza niż 10. / Display all products whose price is less than 10.
 
 SELECT ProductName, Price FROM `products` WHERE Price<10; 
 
 
-10. Wyświetl produkty, które nie należą do żadnej kategorii (CategoryID ma wartość NULL).
+10. Wyświetl produkty, które nie należą do żadnej kategorii (CategoryID ma wartość NULL). / Display products that do not belong to any category (CategoryID has a NULL value).
 
 SELECT ProductName FROM `products` WHERE CategoryID IS NULL;
 
 
-11. Wyświetl łączną wartość cen wszystkich produktów.
+11. Wyświetl łączną wartość cen wszystkich produktów. / Display the total value of all products.
 
 SELECT SUM(Price) FROM `products`; 
 
 
-12. Wyświetl średnią cenę wszystkich produktów.
+12. Wyświetl średnią cenę wszystkich produktów. / Display the average price of all products.
 
 SELECT AVG(Price) FROM `products
 
 
-13. Wyświetl zamówienia, które zostały złożone w roku 2021.
+13. Wyświetl zamówienia, które zostały złożone w roku 2021. / Display orders that were placed in 2021.
 
 SELECT * FROM `orders` WHERE OrderDate = 2021; 
 
 
-14. Dla tabeli suppliers wyświetl zestawienie, które pogrupuje łączną ilość osób należących dla konkretnego Country. 
+14. Dla tabeli 'suppliers' wyświetl zestawienie, które pogrupuje łączną ilość osób należących dla konkretnego 'Country'. / For the ‘suppliers’ table, display a summary that groups the total number of people belonging to a specific ‘Country’.
 
 SELECT COUNT(SupplierID) AS IloscOsob, Country FROM `suppliers` GROUP BY Country; 
 
 
-15. Wyświetl kolumny FirstName i LastName jako jedna kolumna o nazwie Person.
+15. Wyświetl kolumny 'FirstName' i 'LastName' jako jedna kolumna o nazwie 'Person'. / Display the ‘FirstName’ and ‘LastName’ columns as a single column named ‘Person’.
 
 SELECT CONCAT(FirstName, LastName) AS Person FROM `employees`; 
 
 
-16. Wyświetl daty zamówień jako 'nowe' - gdy data zamówień jest po 01.01.2010 i 'stare' gdy zamówienia dokonano do dnia 01.01.2010.
+16. Wyświetl daty zamówień jako 'nowe' - gdy data zamówień jest po 01.01.2010 i 'stare' gdy zamówienia dokonano do dnia 01.01.2010. / Display order dates as ‘new’ when the order date is after January 1, 2010, and ‘old’ when the order was placed before January 1, 2010.
 
 SELECT OrderDate FROM orders,
 CASE
