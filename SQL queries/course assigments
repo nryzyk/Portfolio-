@@ -1,14 +1,14 @@
-1. Wyświetl wszystkie dane klientów z tabeli 'customers'. / Display all customer data from the table 'customers'.
+1. Wyświetl wszystkie dane klientów z tabeli 'customers'. / Display all customers data from the table 'customers'.
 
 SELECT * FROM customers;
 
 
-2. Wyświetl wszystkie dane klientów z Niemiec. / Display all customer data from Germany.
+2. Wyświetl wszystkie dane klientów z Niemiec. / Display all customers data from Germany.
 
 SELECT * FROM customers WHERE Country="Germany"; 
 
 
-3. Wyświetl wszystkie dane klientów, którzy NIE pochodzą z Niemiec. / Display all customer data that does NOT originate from Germany. 
+3. Wyświetl wszystkie dane klientów, którzy NIE pochodzą z Niemiec. / Display all customers data that does NOT originate from Germany. 
 
 SELECT * FROM `customers` WHERE NOT Country="Germany"; 
 
