@@ -4,8 +4,8 @@ Cześć,
 Nazywam się Nicole. Na codzień zajmuję się testowaniem gier wideo na stanowisku FQA/TQA Tester. Aktualnie dokształcam się w zakresie manualnego testowania oprogramowania oraz operacji na bazach danych, a także testowania REST API za pomocą Postmana. W codziennej pracy lubię identyfikację i analizę błędów oraz współpracę z zespołem.  
 
 W tym dokumencie przedstawiam swoje portfolio z przykładami mojej pracy:
-- przypadki testowe
-- zgłoszone błędy
+- przypadki testowe dla wybranej strony internetowej
+- zgłoszone błędy 
 - zapytania SQL - zadania w kursie
 
 ---
@@ -16,7 +16,7 @@ Hello,
 My name is Nicole. I work as an FQA/TQA Tester, testing video games on a daily basis. I am currently expanding my knowledge in the field of manual software testing and database operations, as well as testing REST APIs using Postman. In my daily work, I enjoy identifying and analyzing issues and collaborating with the team.  
 
 In this document, I present you my portfolio with examples of my work:
-- test cases
+- test cases for the selected website
 - reported bugs
 - SQL queries - course assignments
 
