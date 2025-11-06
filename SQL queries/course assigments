@@ -73,13 +73,14 @@ SELECT COUNT(SupplierID) AS IloscOsob, Country FROM `suppliers` GROUP BY Country
 SELECT CONCAT(FirstName, LastName) AS Person FROM employees; 
 
 
-16. Wyświetl daty zamówień jako 'nowe' - gdy data zamówień jest po 01.01.2010 i 'stare' gdy zamówienia dokonano do dnia 01.01.2010. / Display order dates as ‘new’ when the order date is after January 1, 2010, and ‘old’ when the order was placed before January 1, 2010.
+16. Wyświetl daty zamówień jako 'nowe' - gdy data zamówienia jest po 01.01.2010 i 'stare' gdy zamówienia dokonano do dnia 01.01.2010. / Display order dates as ‘new’ when the order date is after January 1, 2010, and ‘old’ when the order was placed before January 1, 2010.
 
-SELECT OrderDate FROM orders,
+SELECT OrderDate,
 CASE
 WHEN OrderDate > '01.01.2010' THEN 'nowe'
 ELSE 'stare'
 END AS 'Info'
+FROM orders;
 
 
 
