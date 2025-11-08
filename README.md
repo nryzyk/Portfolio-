@@ -66,11 +66,8 @@ In this document, I present you my portfolio with examples of my work:
 - [SQL queries](https://github.com/nryzyk/Portfolio-/tree/main/SQL%20queries)
 - https://github.com/nryzyk/Portfolio-/blob/main/Test%20Cases.pdf - przypadki testowe / test cases in polish version
 - https://www.saucedemo.com/ - strona przeznaczona do testów / website for tests
-- https://github.com/typicode/json-server/tree/v0?tab=readme-ov-file - przygotowanie fake Rest API / Fake Rest API preparation 
 
-W folderze [`/postman`](./postman) znajdują się:
-- **my-api-collection.postman_collection.json** – zestaw endpointów REST API z przykładowymi testami.
-- **my-api-environment.postman_environment.json** – zestaw zmiennych środowiskowych (np. `base_url`, `token`).
+
 
 
 
