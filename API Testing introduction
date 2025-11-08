@@ -6,7 +6,12 @@ Testowanie fake API z użyciem Postmana
 ### Jak uruchomić
 1. Otwórz Postmana.
 2. Importuj oba pliki (`Collection` + `Environment`).
-3. Wybierz środowisko z listy w prawym górnym rogu.
+3. Wybierz środowisko z listy w prawym górnym rogu - DEV.
+4. Upewnij się, że DEV environment ma określone wartości:
+- host = localhost 
+- author = author dev
+- title = title dev
+- anyname = 
 4. Kliknij „Run collection” → aby uruchomić wszystkie requesty i testy.
 
 
@@ -21,5 +26,10 @@ Testing fake APIs using Postman
 ### How to run
 1. Open Postman.
 2. Import both files (`Collection` + `Environment`).
-3. Select the environment from the list in the upper right corner.
-4. Click “Run collection” → to run all requests and tests
+3. Select the environment from the list in the upper right corner - DEV.
+4. Make sure that the DEV environment has the following values:
+- host = localhost 
+- author = author dev
+- title = title dev
+- anyname = 
+4. Click “Run collection” → to run all requests and tests.
