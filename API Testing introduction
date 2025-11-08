@@ -1,7 +1,7 @@
 Testowanie fake API z użyciem Postmana
 
 - https://github.com/nryzyk/Portfolio-/blob/main/testy%20post%C3%B3w.postman_collection.json - plik zawiera kolekcję z requestami HTTP - GET/POST/PATCH/PUT/DELETE oraz testy sprawdzające status odpowiedzi, wartości danych, relacje między requestami, zgodność ze środowiskiem
-- DEV env.postman_environment.json - plik ze zmiennymi środowiskowymi o nazwie DEV. Dopasowane do testów w kolekcji.
+- https://github.com/nryzyk/Portfolio-/blob/main/DEV%20env.postman_environment.json - plik ze zmiennymi środowiskowymi o nazwie DEV. Dopasowane do testów w kolekcji.
 
 ### Jak uruchomić
 1. Otwórz Postmana.
@@ -15,8 +15,8 @@ Testowanie fake API z użyciem Postmana
 
 Testing fake APIs using Postman
 
-- testy postów.postman_collection.json - the file contains a collection of HTTP requests - GET/POST/PATCH/PUT/DELETE and tests checking the response status, data values, relationships between requests, and compatibility with the environment
-- DEV env.postman_environment.json - file with environment variables named DEV. Matched to the tests in the collection.
+- https://github.com/nryzyk/Portfolio-/blob/main/testy%20post%C3%B3w.postman_collection.json - the file contains a collection of HTTP requests - GET/POST/PATCH/PUT/DELETE and tests checking the response status, data values, relationships between requests, and compatibility with the environment
+- https://github.com/nryzyk/Portfolio-/blob/main/DEV%20env.postman_environment.json - file with environment variables named DEV. Matched to the tests in the collection.
 
 ### How to run
 1. Open Postman.
