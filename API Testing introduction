@@ -2,3 +2,15 @@ Testowanie fake API z użyciem Postmana
 
 - testy postów.postman_collection - plik zawiera kolekcję z requestami HTTP - GET/POST/PATCH/PUT/DELETE oraz testy sprawdzające status odpowiedzi, wartości danych, relacje między requestami, zgodność ze środowiskiem
 - DEV env.postman_environment - plik ze zmiennymi środowiskowymi o nazwie DEV. Dopasowane do testów w kolekcji.
+
+
+### Jak uruchomić
+1. Otwórz Postmana.
+2. Importuj oba pliki (`Collection` + `Environment`).
+3. Wybierz środowisko z listy w prawym górnym rogu.
+4. Kliknij „Run collection” → aby uruchomić wszystkie requesty i testy.
+
+
+
+### ENG
+
