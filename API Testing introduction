@@ -1,1 +1,4 @@
+Testowanie fake API z użyciem Postmana
 
+- testy postów.postman_collection - plik zawiera kolekcję z requestami HTTP - GET/POST/PATCH/PUT/DELETE oraz testy sprawdzające status odpowiedzi, wartości danych, relacje między requestami, zgodność ze środowiskiem
+- DEV env.postman_environment - plik ze zmiennymi środowiskowymi o nazwie DEV. Dopasowane do testów w kolekcji.
