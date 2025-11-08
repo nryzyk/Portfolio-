@@ -1,4 +1,4 @@
-## O mnie
+[testy postów.postman_collection.json](https://github.com/user-attachments/files/23434521/testy.postow.postman_collection.json)## O mnie
 
 Cześć, 
 Nazywam się Nicole. Na codzień zajmuję się testowaniem gier wideo na stanowisku FQA/TQA Tester. Aktualnie dokształcam się w zakresie manualnego testowania oprogramowania oraz operacji na bazach danych, a także testowania REST API za pomocą Postmana. W codziennej pracy lubię identyfikację i analizę błędów oraz współpracę z zespołem.  
@@ -7,6 +7,7 @@ W tym dokumencie przedstawiam swoje portfolio z przykładami mojej pracy:
 - przypadki testowe dla wybranej strony internetowej
 - zgłoszone błędy 
 - zapytania SQL - zadania w kursie
+- Requesty i testy Fake API z Postmanem 
 
 ---
 
@@ -19,11 +20,12 @@ In this document, I present you my portfolio with examples of my work:
 - test cases for the selected website
 - reported bugs
 - SQL queries - course assignments
+- Fake API's requests and tests with Postman
 
 ---
 
 **Narzędzia:** / **Tools:**
-- Jira, SQL, Google Sheets
+- Jira, mySQL, Google Sheets, Postman
 
 ---
 
@@ -42,7 +44,7 @@ In this document, I present you my portfolio with examples of my work:
 - Tworzenie przypadków testowych / Creating test cases
 - Zgłaszanie błędów / Bug reporting
 - Testowanie API (Postman) / API Testing (Postman)
-- Znajomość poleceń SQL / knowledge of SQL queries
+- Znajomość zapytań SQL / knowledge of SQL queries
 - Manualne testowanie oprogramowania / Manual software testing
 - Podstawowa znajomość protokołu HTTP oraz DevTools / Basic knowledge of HTTP protocol and DevTools
 - Język angielski B2 / English B2
@@ -63,7 +65,12 @@ In this document, I present you my portfolio with examples of my work:
 ## Materiały / Materials
 - [SQL queries](https://github.com/nryzyk/Portfolio-/tree/main/SQL%20queries)
 - https://github.com/nryzyk/Portfolio-/blob/main/Test%20Cases.pdf - przypadki testowe / test cases in polish version
-- https://www.saucedemo.com/ - strona przeznaczona do testów / website for tests 
+- https://www.saucedemo.com/ - strona przeznaczona do testów / website for tests
+- https://github.com/typicode/json-server/tree/v0?tab=readme-ov-file - przygotowanie fake Rest API / Fake Rest API preparation 
+
+W folderze [`/postman`](./postman) znajdują się:
+- **my-api-collection.postman_collection.json** – zestaw endpointów REST API z przykładowymi testami.
+- **my-api-environment.postman_environment.json** – zestaw zmiennych środowiskowych (np. `base_url`, `token`).
 
 
 
