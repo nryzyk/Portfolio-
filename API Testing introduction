@@ -1,6 +1,6 @@
 Testowanie fake API z użyciem Postmana
 
-- testy postów.postman_collection.json - plik zawiera kolekcję z requestami HTTP - GET/POST/PATCH/PUT/DELETE oraz testy sprawdzające status odpowiedzi, wartości danych, relacje między requestami, zgodność ze środowiskiem
+- https://github.com/nryzyk/Portfolio-/blob/main/testy%20post%C3%B3w.postman_collection.json - plik zawiera kolekcję z requestami HTTP - GET/POST/PATCH/PUT/DELETE oraz testy sprawdzające status odpowiedzi, wartości danych, relacje między requestami, zgodność ze środowiskiem
 - DEV env.postman_environment.json - plik ze zmiennymi środowiskowymi o nazwie DEV. Dopasowane do testów w kolekcji.
 
 ### Jak uruchomić
