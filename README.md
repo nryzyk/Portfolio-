@@ -7,7 +7,7 @@ W tym dokumencie przedstawiam swoje portfolio z przykładami mojej pracy:
 - przypadki testowe dla wybranej strony internetowej
 - zgłoszone błędy 
 - zapytania SQL - zadania w kursie
-- Requesty i testy Fake API z Postmanem 
+- Requesty i testy Fake API z Postmanem WIP
 
 ---
 
@@ -20,7 +20,7 @@ In this document, I present you my portfolio with examples of my work:
 - test cases for the selected website
 - reported bugs
 - SQL queries - course assignments
-- Fake API's requests and tests with Postman
+- Fake API's requests and tests with Postman WIP
 
 ---
 
@@ -64,9 +64,8 @@ In this document, I present you my portfolio with examples of my work:
 
 ## Materiały / Materials
 - [SQL queries](https://github.com/nryzyk/Portfolio-/tree/main/SQL%20queries)
-- https://github.com/nryzyk/Portfolio-/blob/main/Test%20Cases.pdf - przypadki testowe / test cases 
-- https://www.saucedemo.com/ - strona przeznaczona do testów / website for tests
-- https://github.com/nryzyk/Portfolio-/blob/main/API%20Testing%20introduction - zapoznanie z testowaniem REST API / introduction to REST API testing WIP
+- https://docs.google.com/spreadsheets/d/1aSQtYLlDlCt7CgA159Q_vuJJbCxpQx-dPw3B-PsMXbE/edit?usp=sharing - link do google sheet z przypadkami testowymi / link to google sheet doc with test cases 
+- https://www.saucedemo.com/ - strona przeznaczona do pisania test casów i defektów / website for writing test cases and defects
   
 
 
