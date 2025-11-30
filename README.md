@@ -101,10 +101,10 @@ json-server --watch db.json
 
 - Import collection and environment to Postman
 Make sure that the DEV environment has the following values:
-    host = localhost 
-    author = author dev
-    title = title dev
-    anyname = 
+  * host = localhost 
+  * author = author dev
+  * title = title dev
+  * anyname = 
 
 
 ## 3. Run collection in Postman
