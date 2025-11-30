@@ -68,9 +68,9 @@ In this document, I present you my portfolio with examples of my work:
 - https://www.saucedemo.com/ - strona przeznaczona do pisania test casów i defektów / website for writing test cases and defects
 - Błędy wylistowane w repozytorium / issues listed in the repository
 - Pliki do pobrania - API / Files to download - API
-  https://github.com/nryzyk/Portfolio-/blob/main/db.json,
-  https://github.com/nryzyk/Portfolio-/blob/main/DEV%20env.postman_environment.json,
-  https://github.com/nryzyk/Portfolio-/blob/main/Post%20tests.postman_collection.json
+  * https://github.com/nryzyk/Portfolio-/blob/main/db.json
+  * https://github.com/nryzyk/Portfolio-/blob/main/DEV%20env.postman_environment.json,
+  * https://github.com/nryzyk/Portfolio-/blob/main/Post%20tests.postman_collection.json
 
 
 ---
@@ -78,8 +78,6 @@ In this document, I present you my portfolio with examples of my work:
 ## REST API Instructions
 
  ## Getting Started
- - Prerequisites
- - Prerequisites
 
 ## 1. Ensure you have the following installed:
 
@@ -109,10 +107,13 @@ Make sure that the DEV environment has the following values:
 
 ## 3. Run collection in Postman
 
-## 4. Results
-* 14 Passed Tests
-
-
+## 4. Tests
+USED SNIPPETS
+ * request status
+ * JSON value check
+ * contains string
+ * get an environment variable
+ * JSON value check related to environment
   
 
 
