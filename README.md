@@ -70,7 +70,7 @@ In this document, I present you my portfolio with examples of my work:
 - Pliki do pobrania - API / Files to download - API
   * https://github.com/nryzyk/Portfolio-/blob/main/db.json
   * https://github.com/nryzyk/Portfolio-/blob/main/DEV%20env.postman_environment.json,
-  * https://github.com/nryzyk/Portfolio-/blob/main/Post%20tests.postman_collection.json
+  * https://github.com/nryzyk/Portfolio-/blob/main/TEST.postman_collection.json
 
 
 ---
