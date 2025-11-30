@@ -93,11 +93,11 @@ In this document, I present you my portfolio with examples of my work:
 ## 2. Installation fake API (instruction source: https://github.com/typicode/json-server/tree/v0)
  
 - Install JSON Server
-npm install -g json-server@0.17.4    # NPM
+  * npm install -g json-server@0.17.4    # NPM
 
 - Start JSON Server 
-cd db.json_directory
-json-server --watch db.json
+  * cd db.json_directory
+  * json-server --watch db.json
 
 - Import collection and environment to Postman
 Make sure that the DEV environment has the following values:
@@ -108,6 +108,9 @@ Make sure that the DEV environment has the following values:
 
 
 ## 3. Run collection in Postman
+
+## 4. Results
+* 14 Passed Tests
 
 
   
