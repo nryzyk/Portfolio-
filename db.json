@@ -1,0 +1,123 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "author": "John Doe"
+    },
+    {
+      "title": "json-server3333",
+      "author": "John Doe",
+      "id": 3
+    },
+    {
+      "title": "Bye world",
+      "id": 4
+    },
+    {
+      "title": "Hello World",
+      "author": "Nicole Ryzyk",
+      "id": 5
+    },
+    {
+      "title": "Hello World",
+      "author": "Nicole Ryzyk",
+      "id": 7
+    },
+    {
+      "title": "Hello World",
+      "author": "Nicole Ryzyk",
+      "id": 8
+    },
+    {
+      "title": "Hello World",
+      "author": "Nicole Ryzyk",
+      "id": 9
+    },
+    {
+      "title": "globalny tytuł",
+      "author": "globalny autor",
+      "id": 10
+    },
+    {
+      "title": "globalny tytuł",
+      "author": "globalny autor",
+      "id": 11
+    },
+    {
+      "title": "globalny tytuł",
+      "author": "globalny autor",
+      "id": 12
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "globalny autor2",
+      "id": 13
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "autor dev",
+      "id": 14
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "autor dev",
+      "id": 15
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "autor dev",
+      "id": 16
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "autor dev",
+      "id": 17
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "autor dev",
+      "id": 18
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "autor dev",
+      "id": 19
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "autor dev",
+      "id": 20
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "autor dev",
+      "id": 21
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "Wisozk",
+      "id": 22
+    },
+    {
+      "title": "globalny tytuł2",
+      "author": "Bailey",
+      "id": 23
+    },
+    {
+      "title": "title",
+      "author": "author",
+      "id": 24
+    },
+    {
+      "title": "{{randomFirsstname}}",
+      "author": "author",
+      "id": 25
+    },
+    {
+      "title": "{{randomFirsstname}}",
+      "author": "author",
+      "id": 26
+}
+  ]
+}
