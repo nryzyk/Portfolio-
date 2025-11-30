@@ -68,8 +68,8 @@ In this document, I present you my portfolio with examples of my work:
 - https://www.saucedemo.com/ - strona przeznaczona do pisania test casów i defektów / website for writing test cases and defects
 - Błędy wylistowane w repozytorium / issues listed in the repository
 - Pliki do pobrania - API / Files to download - API
-  https://github.com/nryzyk/Portfolio-/blob/main/db.json
-  https://github.com/nryzyk/Portfolio-/blob/main/DEV%20env.postman_environment.json
+  https://github.com/nryzyk/Portfolio-/blob/main/db.json,
+  https://github.com/nryzyk/Portfolio-/blob/main/DEV%20env.postman_environment.json,
   https://github.com/nryzyk/Portfolio-/blob/main/Post%20tests.postman_collection.json
   
 
