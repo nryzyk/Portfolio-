@@ -71,6 +71,45 @@ In this document, I present you my portfolio with examples of my work:
   https://github.com/nryzyk/Portfolio-/blob/main/db.json,
   https://github.com/nryzyk/Portfolio-/blob/main/DEV%20env.postman_environment.json,
   https://github.com/nryzyk/Portfolio-/blob/main/Post%20tests.postman_collection.json
+
+
+---
+
+## REST API Instructions
+
+ ## Getting Started
+ - Prerequisites
+ - Prerequisites
+
+## 1. Ensure you have the following installed:
+
+    Node.js 
+    Postman for API testing
+    Postman Collection.json
+    Collection.json 
+    db.json 
+    
+
+## 2. Installation fake API (instruction source: https://github.com/typicode/json-server/tree/v0)
+ 
+- Install JSON Server
+npm install -g json-server@0.17.4    # NPM
+
+- Start JSON Server 
+cd db.json_directory
+json-server --watch db.json
+
+- Import collection and environment to Postman
+Make sure that the DEV environment has the following values:
+    host = localhost 
+    author = author dev
+    title = title dev
+    anyname = 
+
+
+## 3. Run collection in Postman
+
+
   
 
 
