@@ -1,7 +1,7 @@
 ## O mnie
 
 Cześć, 
-Nazywam się Nicole. Na codzień zajmuję się testowaniem gier wideo na stanowisku FQA/TQA Tester. Aktualnie dokształcam się w zakresie manualnego testowania oprogramowania oraz operacji na bazach danych, a także testowania REST API za pomocą Postmana. W codziennej pracy lubię identyfikację i analizę błędów oraz współpracę z zespołem.  
+Nazywam się Nicole. Na codzień zajmuję się testowaniem gier wideo na stanowisku FQA/TQA Testera. Aktualnie dokształcam się w zakresie manualnego testowania oprogramowania oraz operacji na bazach danych, a także testowania REST API za pomocą Postmana. W codziennej pracy lubię identyfikację i analizę błędów oraz współpracę z zespołem.  
 
 W tym dokumencie przedstawiam swoje portfolio z przykładami mojej pracy:
 - przypadki testowe dla wybranej strony internetowej
