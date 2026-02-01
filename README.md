@@ -58,36 +58,21 @@ My name is Nicole. I work as QA Tester in gamedev, testing video games on a dail
 - Communication skills
 - Individual and team work 
 - Analytical thinking
-      
----
-
-## Materials
-- [SQL queries](https://github.com/nryzyk/Portfolio-/tree/main/SQL%20queries)
-- https://docs.google.com/spreadsheets/d/1aSQtYLlDlCt7CgA159Q_vuJJbCxpQx-dPw3B-PsMXbE/edit?usp=sharing - Test Cases 
-- https://www.saucedemo.com/ - Test Website
-- Issues listed in the repository
-- Files to download - API
-  * https://github.com/nryzyk/Portfolio-/blob/main/db.json
-  * https://github.com/nryzyk/Portfolio-/blob/main/DEV%20env.postman_environment.json,
-  * https://github.com/nryzyk/Portfolio-/blob/main/TEST.postman_collection.json
-
 
 ---
 
 ## REST API Instructions
 
- ## Getting Started
-
 ## 1. Ensure you have the following installed:
 
     Node.js 
-    Postman for API testing
-    Postman Collection.json
+    Postman app
+    Environment.json
     Collection.json 
     db.json 
     
 
-## 2. Installation fake API (instruction source: https://github.com/typicode/json-server/tree/v0)
+## 2. Installation fake API (instruction source: https://github.com/typicode/json-server/tree/v0.17.4)
  
 - Install JSON Server
   * npm install -g json-server@0.17.4    # NPM
@@ -107,12 +92,14 @@ Make sure that the DEV environment has the following values:
 ## 3. Run collection in Postman
 
 ## 4. Tests during collection run
+
 USED SNIPPETS
- * request status
+
+ * request status check
  * JSON value check
- * contains string
- * get an environment variable
- * JSON value check related to environment
+ * contains string check
+ * get an environment variable check 
+ * JSON value check related to environment 
   
 
 
