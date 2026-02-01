@@ -5,10 +5,10 @@ manual test cases, bug reports, API testing (Postman) and SQL queries.
 
 ## Repository content
 
-- Test cases – manual test scenarios and test design examples
-- Bug reports – documented bugs with reproduction steps and screenshots
-- API testing – Postman collections and environments
-- SQL – sample queries used for data validation
+- Test cases – manual test scenarios and test design examples | to view in /Test_Cases
+- Bug reports – documented bugs with reproduction steps and screenshots | to view in /Bug_Reports
+- API testing – Postman collections and environments | to view in /API_Testing
+- SQL – sample queries used for data validation | to view in /SQL queries
 ---
 
 ## Test Cases
