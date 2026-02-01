@@ -20,7 +20,8 @@ https://docs.google.com/spreadsheets/d/1aSQtYLlDlCt7CgA159Q_vuJJbCxpQx-dPw3B-PsM
 
 Hello,
 My name is Nicole. I work as QA Tester in gamedev, testing video games on a daily basis. I am currently expanding my knowledge in the field of manual software testing and database operations, as well as testing REST APIs using Postman. In my daily work, I enjoy identifying and analyzing issues and collaborating with the team.  
- 
+
+ ---
 
 **Tools:**
 
