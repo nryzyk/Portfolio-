@@ -14,6 +14,7 @@ manual test cases, bug reports, API testing (Postman) and SQL queries.
 ## Test Cases
 
 All test cases are documented in Google Sheets:
+https://docs.google.com/spreadsheets/d/1aSQtYLlDlCt7CgA159Q_vuJJbCxpQx-dPw3B-PsMXbE/edit?gid=2035396963#gid=2035396963
   
 ## About me
 
