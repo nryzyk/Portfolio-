@@ -1,12 +1,12 @@
 # Test Plan — saucedemo.com
 
-## 📌 Introduction
+## Introduction
 This Test Plan outlines the approach to manual testing of the login, product display, sorting, cart, and checkout functionalities based on the provided test cases spreadsheet.  
 The goal is to ensure that all features work as expected and meet the requirements of the user.
 
 ---
 
-## 📌 Scope
+## Scope
 Testing will cover all scenarios described in the test cases spreadsheet, including:
 
 - Login functionality (valid and invalid credentials)
@@ -16,7 +16,7 @@ Testing will cover all scenarios described in the test cases spreadsheet, includ
 
 ---
 
-## 📌 Test Items
+## Test Items
 The following items will be tested:
 
 - Login panel display and error messages
@@ -24,6 +24,3 @@ The following items will be tested:
 - Sorting options (by price and name)
 - Cart functionality (add/remove items, quantity)
 - Checkout process (input validation, form submission)
-
----
-
