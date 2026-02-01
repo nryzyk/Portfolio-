@@ -4,6 +4,13 @@
 This Test Plan outlines the approach to manual testing of the login, product display, sorting, cart, and checkout functionalities based on the provided test cases spreadsheet.  
 The goal is to ensure that all features work as expected and meet the requirements of the user.
 
+
+## Test Cases
+
+All test cases for saucedemo.com are available in this Google Sheet:
+https://docs.google.com/spreadsheets/d/1aSQtYLlDlCt7CgA159Q_vuJJbCxpQx-dPw3B-PsMXbE/edit?gid=2035396963#gid=2035396963
+
+
 ---
 
 ## Scope
