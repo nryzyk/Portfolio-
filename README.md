@@ -1,14 +1,20 @@
+# Manual QA Portfolio
 
+This repository contains examples of my QA work:
+manual test cases, bug reports, API testing (Postman) and SQL queries.
+
+## Repository content
+
+- Test cases – manual test scenarios and test design examples
+- Bug reports – documented bugs with reproduction steps and screenshots
+- API testing – Postman collections and environments
+- SQL – sample queries used for data validation
+  
 ## About me
 
 Hello,
 My name is Nicole. I work as QA Tester in gamedev, testing video games on a daily basis. I am currently expanding my knowledge in the field of manual software testing and database operations, as well as testing REST APIs using Postman. In my daily work, I enjoy identifying and analyzing issues and collaborating with the team.  
-
-In this document, I present you my portfolio with examples of my work:
-- test cases for the selected website
-- reported bugs
-- SQL queries - course assignments
-- Fake API's requests and tests with Postman 
+ 
 
 ---
 
