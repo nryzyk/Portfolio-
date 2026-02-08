@@ -8,7 +8,7 @@ As part of the project, REST API (Fake API) tests were performed using HTTP meth
  - reading and using environment variables (get environment variable check),
  - validating JSON data in relation to environment variables.
 
---
+
 
 ## REST API Instructions
 
