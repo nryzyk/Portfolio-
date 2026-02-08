@@ -40,6 +40,7 @@ Make sure that the DEV environment is set on and has the following values:
 
 ## 3. Run collection in Postman
 
+
 ## 4. Test Results
 presented in the directory: https://github.com/nryzyk/Portfolio-/tree/main/API_Testing/test_summary
 
@@ -47,7 +48,9 @@ A total of **13 API tests** were performed as part of the project, of which:
 -  **11 tests were successful**
 -  **2 tests were unsuccessful** - explained in the next step
 
+
 ## 5. Detected test failures: 2
+
 
 ## Fail-01: DELETE post – incorrect response status
 
