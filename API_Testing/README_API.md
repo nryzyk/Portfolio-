@@ -40,15 +40,8 @@ Make sure that the DEV environment is set on and has the following values:
 
 ## 3. Run collection in Postman
 
-## 4. Following test and results
+## 4. Test Results
 
-USED SNIPPETS
-
- * request status check
- * JSON value check
- * contains string check
- * get an environment variable check 
- * JSON value check related to environment 
   
 
 
