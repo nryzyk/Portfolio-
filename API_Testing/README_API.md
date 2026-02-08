@@ -42,6 +42,39 @@ Make sure that the DEV environment is set on and has the following values:
 
 ## 4. Test Results
 
+A total of **13 API tests** were performed as part of the project, of which:
+-  **11 tests were successful**
+-  **2 tests were unsuccessful** - explained in the next step
+
+## 5. Detected test failures: 2
+
+## Fail-01: DELETE post – incorrect response status
+
+Endpoint: DELETE/ http://{{host}}:3000/posts/15
+Test description: Attempt to delete a post with the specified ID 15
+Expected result: Status code 200
+Actual result: Status code ≠ 200
+Reason: Post with the specified ID does not exist
+
+Note: Test failed due to an attempt to delete a non-existent resource.
+The API behaviour is consistent with business logic and confirms the correct handling of invalid request.
+
+## The test is an example of a negative test.
+
+
+## Fail-02: GET /posts – title field value mismatch
+
+Endpoint: POST/ http://{{host}}:3000/posts
+Test description: Verify that the 3rd post (index 2) has a valid title field value.
+Expected result: "title": "Bye world"
+Actual result: "title": "json-server3333"
+Error:
+"AssertionError: expected 'json-server3333' to deeply equal 'Bye world'"
+
+Note: The test failed because the test data did not match the test expectations.
+
+## This case is an example of a negative test and confirms that the response validation mechanism is working correctly.
+
   
 
 
