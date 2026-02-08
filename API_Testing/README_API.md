@@ -8,7 +8,7 @@ As part of the project, REST API (Fake API) tests were performed using HTTP meth
  - reading and using environment variables (get environment variable check),
  - validating JSON data in relation to environment variables.
 
-
+---
 
 ## REST API Instruction
 
@@ -20,7 +20,7 @@ As part of the project, REST API (Fake API) tests were performed using HTTP meth
     Collection.json (TEST.postman_collection.json)
     db.json 
     
----
+--
 
 
 ## 2. Installation fake API - command prompt for Windows (instruction source: https://github.com/typicode/json-server/tree/v0.17.4)
@@ -39,13 +39,13 @@ Make sure that the DEV environment is set on and has the following values:
   * title = title dev
   * anyname = 
 
-
+--
 
 
 ## 3. Run collection in Postman
 
 
-
+--
 
 ## 4. Test Results
 presented in the directory: https://github.com/nryzyk/Portfolio-/tree/main/API_Testing/test_summary
@@ -55,7 +55,7 @@ A total of **13 API tests** were performed as part of the project, of which:
 -  **2 tests were unsuccessful** - explained in the next step
 
 
-
+--
 
 ## 5. Detected test failures: 2
 
