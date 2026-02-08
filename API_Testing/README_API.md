@@ -21,6 +21,8 @@ As part of the project, REST API (Fake API) tests were performed using HTTP meth
     db.json 
     
 
+
+
 ## 2. Installation fake API - command prompt for Windows (instruction source: https://github.com/typicode/json-server/tree/v0.17.4)
  
 - Install JSON Server 
@@ -38,7 +40,11 @@ Make sure that the DEV environment is set on and has the following values:
   * anyname = 
 
 
+
+
 ## 3. Run collection in Postman
+
+
 
 
 ## 4. Test Results
@@ -47,6 +53,8 @@ presented in the directory: https://github.com/nryzyk/Portfolio-/tree/main/API_T
 A total of **13 API tests** were performed as part of the project, of which:
 -  **11 tests were successful**
 -  **2 tests were unsuccessful** - explained in the next step
+
+
 
 
 ## 5. Detected test failures: 2
