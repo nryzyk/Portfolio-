@@ -1,6 +1,6 @@
 As part of the project, REST API (Fake API) tests were performed using HTTP methods: GET, POST, PUT, PATCH, and DELETE to verify the correct operation of endpoints and data updates.
 
-##The tests were carried out using automated test scripts (snippets), including:
+## The tests were carried out using automated test scripts (snippets), including:
 
  - checking the HTTP response code (request status check),
  - validating values in the JSON response (JSON value check),
