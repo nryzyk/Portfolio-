@@ -60,7 +60,7 @@ A total of **13 API tests** were performed as part of the project, of which:
 ## 5. Detected test failures: 2
 
 
-# Fail-01: DELETE post – incorrect response status
+1. Fail-01: DELETE post – incorrect response status
 
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
@@ -82,7 +82,7 @@ The test is an example of a negative test.
 
 
 
-# Fail-02: GET /posts – title field value mismatch
+2. Fail-02: GET /posts – title field value mismatch
 
 pm.test("Check the title 1", function () {
     var jsonData = pm.response.json();
