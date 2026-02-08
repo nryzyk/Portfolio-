@@ -9,9 +9,9 @@
     db.json 
     
 
-## 2. Installation fake API (instruction source: https://github.com/typicode/json-server/tree/v0.17.4)
+## 2. Installation fake API - command prompt for Windows (instruction source: https://github.com/typicode/json-server/tree/v0.17.4)
  
-- Install JSON Server
+- Install JSON Server 
   * npm install -g json-server@0.17.4    # NPM
 
 - Start JSON Server 
