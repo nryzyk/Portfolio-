@@ -76,6 +76,12 @@ The API behaviour is consistent with business logic and confirms the correct han
 The test is an example of a negative test.
 
 
+
+
+
+
+
+
 2. Fail-02: GET /posts – title field value mismatch
 
 pm.test("Check the title 1", function () {
