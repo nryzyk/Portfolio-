@@ -33,7 +33,7 @@ My name is Nicole. I work as QA Tester in gamedev, testing video games on a dail
 
 ---
 
-## Cerificates
+## Certificates
 
 | Certyficate | Issuer | Year |
 |--------------------|-------------|------|
