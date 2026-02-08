@@ -10,7 +10,7 @@ As part of the project, REST API (Fake API) tests were performed using HTTP meth
 
 
 
-## REST API Instructions
+## REST API Instruction
 
 ## 1. Ensure you have the following installed:
 
@@ -20,7 +20,7 @@ As part of the project, REST API (Fake API) tests were performed using HTTP meth
     Collection.json (TEST.postman_collection.json)
     db.json 
     
-
+---
 
 
 ## 2. Installation fake API - command prompt for Windows (instruction source: https://github.com/typicode/json-server/tree/v0.17.4)
