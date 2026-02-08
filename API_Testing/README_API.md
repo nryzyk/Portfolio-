@@ -50,6 +50,9 @@ A total of **13 API tests** were performed as part of the project, of which:
 
 ## Fail-01: DELETE post – incorrect response status
 
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+
 - Endpoint: DELETE/ http://{{host}}:3000/posts/15
 - Test description: Attempt to delete a post with the specified ID 15
 - Expected result: Status code 200
@@ -62,6 +65,10 @@ The test is an example of a negative test.
 
 
 ## Fail-02: GET /posts – title field value mismatch
+
+pm.test("Check the title 1", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData[2].title).to.eql('Bye world');
 
 - Endpoint: POST/ http://{{host}}:3000/posts
 - Test description: Verify that the 3rd post (index 2) has a valid title field value.
