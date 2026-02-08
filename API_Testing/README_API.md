@@ -58,8 +58,7 @@ A total of **13 API tests** were performed as part of the project, of which:
 
 - Note: Test failed due to an attempt to delete a non-existent resource.
 The API behaviour is consistent with business logic and confirms the correct handling of invalid request.
-
-## The test is an example of a negative test.
+The test is an example of a negative test.
 
 
 ## Fail-02: GET /posts – title field value mismatch
@@ -72,8 +71,7 @@ The API behaviour is consistent with business logic and confirms the correct han
 "AssertionError: expected 'json-server3333' to deeply equal 'Bye world'"
 
 - Note: The test failed because the test data did not match the test expectations.
-
-## This case is an example of a negative test and confirms that the response validation mechanism is working correctly.
+This case is an example of a negative test and confirms that the response validation mechanism is working correctly.
 
   
 
