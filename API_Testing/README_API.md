@@ -16,8 +16,8 @@ As part of the project, REST API (Fake API) tests were performed using HTTP meth
 
     Node.js 
     Postman app
-    Environment.json
-    Collection.json 
+    Environment.json (DEV env.postman_environment.json)
+    Collection.json (TEST.postman_collection.json)
     db.json 
     
 
