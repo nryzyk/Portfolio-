@@ -58,8 +58,8 @@ My name is Nicole. I work as QA Tester in gamedev, testing video games on a dail
 ## Soft skills
 
 - Accuracy and precision
-- Attention to detail
-- Good organization of work time and tasks
+- Attention to details
+- Good organization of work, time and tasks
 - Communication skills
 - Individual and team work 
 - Analytical thinking
