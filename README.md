@@ -1,6 +1,6 @@
-# Manual QA Portfolio
+# Manual testing Portfolio
 
-This repository contains examples of my QA work:
+This repository contains examples of my work:
 manual test cases, bug reports, API testing (Postman) and SQL queries.
 
 ## Repository content
