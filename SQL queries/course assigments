@@ -120,7 +120,7 @@ ON orders.CustomerID=customers.CustomerID;
 
 
 
-22. Zwróć rekordy z kolumn 'Country' z dwóch tabelek 'customers' i 'suppliers'. / Return records from the ‘Country’ columns of the two tables ‘customers’ and ‘suppliers’.
+22. Return records from the ‘Country’ columns of the two tables ‘customers’ and ‘suppliers’.
 
 SELECT Country from customers UNION SELECT Country from suppliers; 
 
